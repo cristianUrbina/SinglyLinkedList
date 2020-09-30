@@ -1,8 +1,7 @@
 class Node{
   public:
     int content;
-    Node * pastboy;
-    Node * nextboy; //this is a pointer
+    Node * pastboy;//this is a pointer
     explicit Node(const int& data);
     //Node(int data, Node *next);
 };
